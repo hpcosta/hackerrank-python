@@ -1,0 +1,11 @@
+# https://www.hackerrank.com/challenges/python-string-formatting
+
+
+def print_formatted(number):
+	x = len("{0:b}".format(number))
+	for i in xrange(1, n + 1):
+		print "{0:{width}d} {0:{width}o} {0:{width}X} {0:{width}b}".format(i, width=x)
+
+if __name__ == '__main__':
+	n = int(raw_input())
+	print_formatted(n)
