@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/symmetric-difference?h_r=next-challenge&h_v=zen
+# https://www.hackerrank.com/challenges/symmetric-difference
 
 
 one = raw_input()
